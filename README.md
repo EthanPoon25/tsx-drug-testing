@@ -13,9 +13,9 @@ A quantum-classical loop for molecular design:
 5) React dashboard renders charts, heatmaps, and 3D structures (3Dmol.js).
 
 ## How it works (core idea)
-Instead of optimizing a single static metric, QBrainX co-evolves the generator, quantum binding energy, and brain-like reward:
+Instead of optimizing a single static metric, this project co-evolves the generator, quantum binding energy, and brain-like reward:
 
-Instead of optimizing a single static metric, QBrainX co-evolves three components: the GAN generator, quantum-estimated binding energy, and an adaptive brain-like reward.
+Instead of optimizing a single static metric, this project co-evolves three components: the GAN generator, quantum-estimated binding energy, and an adaptive brain-like reward.
 
 E_bind: Binding energy estimated via Variational Quantum Eigensolver (VQE).
 
@@ -39,7 +39,7 @@ Cross-runtime reliability: making Python print only JSON on stdout, routing logs
 Real-time UX: keeping charts smooth while running quantum simulations to which I added fallbacks and small payloads.
 Multi-objective stability: tuning (\lambda_{\text{VQE}}) and (\lambda_{\text{brain}}) to avoid mode collapse or trivial minima.
 Why it’s novel
-Most pipelines optimize a fixed score. QBrainx co-evolves a generator with quantum energy and an adaptive, brain-like preference signal, turning search from “lowest number wins” into “physics-aligned, goal-aware discovery.” Essentially, QBrainX is novel because it uses quantum computing’s ability to simulate real brain processes like neuron entanglement and synaptic dynamics, which classical computers can’t replicate. With advanced quantum AI to discover new drugs, creating a platform that “thinks” and adapts like a brain in real time (rather than long, tedious experiments with real subjects at risk) is extremely incredible. It enables breakthroughs in neuroscience and pharmaceutical research by directly modeling nature’s quantum complexity. Classical computing, no matter how powerful, can only test molecules and simulate brain processes sequentially, hitting hard limits in complexity and scale. QBrainX uses quantum mechanics to explore vast molecular and neural possibilities in parallel, revealing solutions and patterns that were computationally unreachable before. QBrainX uses quantum superposition to evaluate millions of drug molecules simultaneously, quantum entanglement to model complex brain functions, and hybrid quantum-classical learning to refine results in real time.
+Most pipelines optimize a fixed score. This project co-evolves a generator with quantum energy and an adaptive, brain-like preference signal, turning search from “lowest number wins” into “physics-aligned, goal-aware discovery.” Essentially, this is novel because it uses quantum computing’s ability to simulate real brain processes like neuron entanglement and synaptic dynamics, which classical computers can’t replicate. With advanced quantum AI to discover new drugs, creating a platform that “thinks” and adapts like a brain in real time (rather than long, tedious experiments with real subjects at risk) is extremely incredible. It enables breakthroughs in neuroscience and pharmaceutical research by directly modeling nature’s quantum complexity. Classical computing, no matter how powerful, can only test molecules and simulate brain processes sequentially, hitting hard limits in complexity and scale. It uses quantum mechanics to explore vast molecular and neural possibilities in parallel, revealing solutions and patterns that were computationally unreachable before. This project uses quantum superposition to evaluate millions of drug molecules simultaneously, quantum entanglement to model complex brain functions, and hybrid quantum-classical learning to refine results in real time.
 
 # Getting Started with Create React App
 
